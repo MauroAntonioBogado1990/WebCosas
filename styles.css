@@ -6,8 +6,8 @@
 
 body{
     font-family: Segoe UI, Tahoma, Geneva, Verdana;
-    background: linear-gradient(to right,#197caa, #b4b198);  
-    color: white;
+    background: linear-gradient(to right,#ffffff, #95e6ff);  
+    color: black;
     margin-top: 25px;
     font-size: 16px;
 }
@@ -19,7 +19,7 @@ img {
     margin-right: 20px;
 }
 a {
-    color: white;
+    color: black;
     text-decoration: none;
 
 }
@@ -66,7 +66,7 @@ ul{
     
 }
 .nav-main ul li a:hover {
-    border-bottom: 2px solid white;
+    border-bottom: 2px solid rgb(233, 210, 210);
     
 }
 .showcase {
@@ -78,7 +78,7 @@ ul{
     flex-direction: column;
     align-items: center;
     justify-content: flex-end;
-    border: 10px solid white;    
+    border: 10px solid rgb(38, 109, 156);    
     border-radius: 20px;
     margin-top: 20px;
 }
@@ -89,8 +89,8 @@ ul{
     border: 0;
     font-weight: bold;
     padding: 10px 20px;
-    background: rgb(88, 116, 238);    
-    color: white;
+    background: rgb(191, 198, 230);    
+    color: rgb(4, 20, 22);
     border: 2px solid rgb(23, 18, 94);
     margin-bottom: 10px 0 ;
     border-radius: 80px;
@@ -98,7 +98,7 @@ ul{
 }
 /* opacidad de elementos*/
 .btn:hover{
-    opacity: 0.8;
+    opacity: 0.9;
 }
 
 .showcase h2,
@@ -107,7 +107,36 @@ ul{
 }
 h3{
     font-family:  Segoe UI, Tahoma, Geneva, Verdana;
-    margin-top: 20px;
+    margin-top: 40px;
     text-align: center;
     font-size: 25px;
+}
+.news {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 25px;
+    margin: 10px 0; 
+    align-items: center;
+}
+.news img {
+    width: 75%;
+    height: 65%;
+    border-radius:110px;
+    border: 3px solid rgb(38, 109, 156); 
+    gap: 25px;
+    margin-left: 50px;
+    margin-bottom: 3px;
+    align-items: center;
+}
+.news h3  {
+    font-size: 20px;
+    text-align: center    ;
+    
+}
+.news a {
+    margin-top: 10px;
+    margin-left: 90px;
+    
+    text-align: center   ;
+    
 }

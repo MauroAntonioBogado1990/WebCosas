@@ -73,7 +73,7 @@ ul{
     width: 100%;
     height: 550%;
     background: url('../img/principal.png') no-repeat center center/cover;
-    padding-bottom: 50px;
+    padding: 50px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -98,7 +98,7 @@ ul{
 }
 /* opacidad de elementos*/
 .btn:hover{
-    opacity: 0.9;
+    opacity: 0.6;
 }
 
 .showcase h2,
@@ -107,7 +107,7 @@ ul{
 }
 h3{
     font-family:  Segoe UI, Tahoma, Geneva, Verdana;
-    margin-top: 40px;
+    margin-top: 150px;
     text-align: center;
     font-size: 25px;
 }
@@ -125,12 +125,13 @@ h3{
     border: 3px solid rgb(38, 109, 156); 
     gap: 25px;
     margin-left: 50px;
-    margin-bottom: 3px;
+    margin-bottom: 30px;
     align-items: center;
 }
 .news h3  {
+    margin-top: 10px;
     font-size: 20px;
-    text-align: center    ;
+    text-align: center;
     
 }
 .news a {
@@ -139,4 +140,22 @@ h3{
     
     text-align: center   ;
     
+}
+.social {
+    margin-top: 55px;
+    text-align: center;
+    margin-bottom: 20px; 
+}
+.social p  {
+    font-size: 15px;
+    
+    font-family: Segoe UI, Tahoma, Geneva, Verdana;
+}
+.social i {
+    font-size: 35px;
+}
+@media (max-width: 700px) {
+    .news {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
